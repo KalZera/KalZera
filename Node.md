@@ -17,7 +17,7 @@
   "editor.renderLineHighlight":"gutter",
 
   // Aumenta a fonte do terminal
-  "terminal.integrated.fontSize":14,
+  "terminal.integrated.fontSize":16,
 
   // Define o tema dos ícones na sidebar
   "workbench.iconTheme":"material-icon-theme",
@@ -34,26 +34,6 @@
   "editor.lineHeight": 1.8,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "extensions.ignoreRecommendations": true,
-  "typescript.tsserver.log": "off",
-  "files.associations": {
-    ".env.*": "dotenv",
-    ".prettierrc": "json",
-    "*.css": "css",
-    ".dev.vars": "dotenv"
-  },
-  "symbols.files.associations": {
-    "*.module.ts": "nest",
-    "*.guard.ts": "typescript",
-    "*.spec.ts": "ts-test",
-    "*.e2e-spec.ts": "ts-test",
-    "*.mock.ts": "ts-test",
-    "vitest.config.e2e.ts": "vite",
-    ".env.development.local": "gear",
-    ".env.test.local": "gear",
-    ".env.local": "gear",
-    ".env.example": "gear"
-  },
   "tailwindCSS.experimental.classRegex": [
     [
       "tv\\(([^)]*)\\)",
@@ -61,43 +41,15 @@
     ],
     "class:\\s*?[\"'`]([^\"'`]*).*?,"
   ],
-  "editor.parameterHints.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.suggestSelection": "first",
-  "explorer.confirmDelete": false,
-  "gitlens.codeLens.recentChange.enabled": false,
-  "terminal.integrated.showExitAlert": false,
-  "[prisma]": {
-    "editor.formatOnSave": true
-  },
+  "gitlens.codeLens.recentChange.enabled": true,
   "typescript.suggest.autoImports": true,
-  "typescript.preferences.preferTypeOnlyAutoImports": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "mdx": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx",
-    "mdx": "jsx"
-  },
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "explorer.compactFolders": false,
-  "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
-  "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "graphql"
-  ],
-  "editor.semanticHighlighting.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
   "editor.tabSize": 2,
-  "security.workspace.trust.untrustedFiles": "newWindow",
   "files.exclude": {
     "**\/CVS": true,
     "**\/.DS_Store": true,
@@ -106,25 +58,14 @@
     "**\/.git": true,
     ".vscode": true
   },
-  "update.mode": "manual",
-  "terminal.integrated.gpuAcceleration": "on",
-  "terminal.integrated.defaultProfile.osx": "fish",
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "window.commandCenter": false,
-  "symbols.hidesExplorerArrows": false,
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "update.showReleaseNotes": false,
-  "security.promptForLocalFileProtocolHandling": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.minimap.enabled": false,
   "window.titleBarStyle": "native",
+  "editor.minimap.enabled": true,
   "editor.scrollbar.vertical": "visible",
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
@@ -136,12 +77,7 @@
   "explorer.fileNesting.enabled": true,
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "Min Light",
-  "gitlens.advanced.messages": {
-    "suppressIntegrationRequestTimedOutWarning": true
-  },
-  "screencastMode.fontSize": 64,
-  "scm.inputFontFamily": "",
   "editor.suggestFontSize": 16,
-  "editor.minimap.autohide": true,
+  "editor.minimap.autohide": false,
   "workbench.preferredDarkColorTheme": "Dracula Refined",
 }
