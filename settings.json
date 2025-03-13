@@ -3,7 +3,7 @@
   "workbench.colorTheme":"poimandres",
 
   // Configura tamanho e família da fonte
-  "editor.fontSize":18,
+  "editor.fontSize":16,
   "editor.fontFamily":"jetBrains Mono",
   "editor.fontLigatures":true,
 
@@ -61,6 +61,10 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "window.zoomLevel": 1,
+  "explorer.openEditors.visible": 7,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
