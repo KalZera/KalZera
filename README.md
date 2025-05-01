@@ -4,7 +4,7 @@
 
 - 💻 I’m currently working for [Matrixcargo](https://matrixcargo.com.br/)
   
-- 🚀 I’m currently learning **Cloud platforms**
+- 🚀 I’m currently learning **Cloud platforms** and other ways to improve my stack **Node + React**
 
 - 💬 Ask me about **javascript, typescript, node, graphql, react**
 
