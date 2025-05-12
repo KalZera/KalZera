@@ -1,39 +1,33 @@
 {
-  // Define o tema do VSCode
-  "workbench.colorTheme":"poimandres",
-
-  // Configura tamanho e família da fonte
-  "editor.fontSize":16,
-  "editor.fontFamily":"jetBrains Mono",
-  "editor.fontLigatures":true,
-
-  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.8,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.rulers": [
     80,
     120
   ],
-
-  // Aplica um sinal visual na esquerda da linha selecionada
-  "editor.renderLineHighlight":"gutter",
-
-  // Aumenta a fonte do terminal
-  "terminal.integrated.fontSize":16,
-
-  // Define o tema dos ícones na sidebar
-  "workbench.iconTheme":"material-icon-theme",
-  "workbench.tree.enableStickyScroll": true,
+  // "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
   "editor.stickyScroll.enabled": true,
-  "editor.stickyScroll.defaultModel": "indentationModel",
-  "editor.stickyScroll.maxLineCount": 7,
-  "github.copilot.editor.enableAutoCompletions": true,
-  "git.suggestSmartCommit": false,
-  "git.openRepositoryInParentFolders": "never",
-  "diffEditor.ignoreTrimWhitespace": false,
-  
-
-  "editor.lineHeight": 1.8,
-  "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.tree.enableStickyScroll": true,
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css",
+    ".dev.vars": "dotenv"
+  },
+  "symbols.files.associations": {
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "*.mock.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.development.local": "gear",
+    ".env.test.local": "gear",
+    ".env.local": "gear",
+    ".env.example": "gear"
+  },
   "tailwindCSS.experimental.classRegex": [
     [
       "tv\\(([^)]*)\\)",
@@ -41,14 +35,49 @@
     ],
     "class:\\s*?[\"'`]([^\"'`]*).*?,"
   ],
+  "editor.parameterHints.enabled": true,
+  "editor.renderLineHighlight": "gutter",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "gitlens.codeLens.recentChange.enabled": true,
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": true,
+  "terminal.integrated.showExitAlert": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
   "typescript.suggest.autoImports": true,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.editor.labelFormat": "default",
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "mdx": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "mdx": "jsx"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": true,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
+  "editor.semanticHighlighting.enabled": true,
+  // "workbench.productIconTheme": "fluent-icons",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.tabSize": 2,
   "files.exclude": {
     "**\/CVS": true,
@@ -59,30 +88,57 @@
     ".vscode": true,
     "node_modules": true
   },
+  "terminal.integrated.gpuAcceleration": "on",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
-  "window.zoomLevel": 1,
-  "explorer.openEditors.visible": 7,
+  "symbols.hidesExplorerArrows": false,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "window.titleBarStyle": "native",
+  "update.showReleaseNotes": false,
+  "security.promptForLocalFileProtocolHandling": false,
+  "editor.hideCursorInOverviewRuler": false,
   "editor.minimap.enabled": true,
-  "editor.scrollbar.vertical": "visible",
+  "window.titleBarStyle": "native",
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "package.json": "eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*"
   },
   "explorer.fileNesting.enabled": true,
+  "workbench.statusBar.visible": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
+  "workbench.layoutControl.enabled": false,
   "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Dracula Theme Soft",
   "workbench.preferredLightColorTheme": "Min Light",
-  "editor.suggestFontSize": 16,
-  "editor.minimap.autohide": false,
-  "workbench.preferredDarkColorTheme": "Dracula Refined"
+  "window.zoomLevel": 1,
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.stickyScroll.defaultModel": "indentationModel",
+  "editor.stickyScroll.maxLineCount": 7,
+  "git.suggestSmartCommit": false,
+  "git.openRepositoryInParentFolders": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
