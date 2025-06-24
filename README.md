@@ -2,9 +2,7 @@
 <h3 align="center">I love to code and new technologies.</h3>
 <br/>
 
-- 💻 I’m currently working for [Matrixcargo](https://matrixcargo.com.br/)
-  
-- 🚀 I’m currently learning **Cloud platforms** and other ways to improve my stack **Node + React**
+- 🚀 I’m currently learning **Cloud platforms** and other ways to improve my stack **Node + React** like **next js** 
 
 - 💬 Ask me about **javascript, typescript, node, graphql, react**
 
