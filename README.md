@@ -2,7 +2,7 @@
 <h3 align="center">I love to code and new technologies.</h3>
 <br/>
 
-- 🚀 I’m currently learning **Cloud platforms** and other ways to improve my stack **Node + React** like **next js** 
+- 🚀 I’m currently learning about new patterns in back end 
 
 - 💬 Ask me about **javascript, typescript, node, graphql, react**
 
