@@ -4,7 +4,7 @@
 
 - 🚀 I’m currently learning about new patterns in back end 
 
-- 💬 Ask me about **javascript, typescript, node, graphql, react**
+- 💬 Ask me about **Javascript, Typescript, Node, Graphql, React**
 
 - ☕ How to invite me for coffee **kalex.codr@gmail.com**
 
